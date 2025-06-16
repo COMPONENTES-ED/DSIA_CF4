@@ -45,7 +45,7 @@
         figure
           img(src="@/assets/curso/intro5.svg")
     
-    p.mt-4(data-aos="fade-right") ¡Te invitamos a explorar los fundamentos, arquitecturas y herramientas que te permitirán desarrollar #[em software] de calidad, trabajando colaborativamente y aplicando las mejores prácticas de la industria!
+    p.mt-4(data-aos="fade-right") ¡Le invitamos a explorar los fundamentos, arquitecturas y herramientas que le permitirán desarrollar #[em software] de calidad, trabajando colaborativamente y aplicando las mejores prácticas de la industria!
 
     figure.mt-4(data-aos="zoom-in-up" data-aos-duration="700")
       .video

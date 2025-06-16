@@ -168,8 +168,33 @@
 
       .row.mt-4
         .col-lg.mb-4.mb-lg-0.m-auto.col-md-7(data-aos="fade-right")
-          figure  
-            img(src="@/assets/curso/tema2/14.svg")
+          .tarjeta.overflow-hidden(style="background-color: #110628 ")
+            .p-3.mb-5(style="background-color: #3A1D71")
+              img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+            pre.p-5.text-white.py-2.mb-4
+              code
+                | # Buena práctica: Separación de responsabilidades
+                | class UsuarioRepositorio:
+                |     def obtener_usuario(self, id):
+                |         # Lógica de acceso a base de datos
+                |         pass
+                |
+                | class ValidadorUsuario:
+                |     def validar(self, usuario):
+                |         # Lógica de validación
+                |         pass
+                |
+                | class ServicioUsuario:
+                |     def __init__(self, repositorio, validador):
+                |         self.repositorio = repositorio
+                |         self.validador = validador
+                |
+                |     def procesar_usuario(self, id):
+                |         usuario = self.repositorio.obtener_usuario(id)
+                |         self.validador.validar(usuario)
+                |         return usuario
+          //- figure  
+            //- img(src="@/assets/curso/tema2/14.svg")
         .col-lg(data-aos="fade-left")
           .d-none.d-lg-block
             figure

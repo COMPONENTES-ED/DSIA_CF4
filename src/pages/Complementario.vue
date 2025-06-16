@@ -73,35 +73,35 @@ export default {
           link: 'https://www.youtube.com/watch?v=7bu6jnb5q8s',
         },
         {
-          tema: '2 .Arquitectura y diseño de software',
+          tema: '2 .Arquitectura y diseño de <em>software</em>',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021c, noviembre 26). <em>Diseño de patrones de software: introducción</em>.',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2021c, noviembre 26). <em>Diseño de patrones de <em>software</em>: introducción</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=sQHRHhsRUoA',
         },
         {
-          tema: '2. Arquitectura y diseño de software',
+          tema: '2. Arquitectura y diseño de <em>software</em>',
           referencia:
             'Ecosistema de Recursos Educativos Digitales SENA. (2023c, marzo 25). <em>Introducción - Análisis, diseño y arquitectura de software</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=gomlgvATlPU',
         },
         {
-          tema: '2. Arquitectura y diseño de software',
+          tema: '2. Arquitectura y diseño de <em>software</em>',
           referencia:
             'Ecosistema de Recursos Educativos Digitales SENA. (2022a, agosto 8). <em>Introducción a la arquitectura de software</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=plwzcGedFpM',
         },
         {
-          tema: '2. Arquitectura y diseño de software',
+          tema: '2. Arquitectura y diseño de <em>software</em>',
           referencia:
             'Ecosistema de Recursos Educativos Digitales SENA. (2021b, julio 1). <em>Componentes de una arquitectura de software</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=XrjY2iOVR8o',
         },
         {
-          tema: '2. Arquitectura y diseño de software',
+          tema: '2. Arquitectura y diseño de <em>software</em>',
           referencia:
             'Ecosistema de Recursos Educativos Digitales SENA. (2021d, diciembre 10). <em>Patrones de diseño de software</em>.',
           tipo: 'Video',

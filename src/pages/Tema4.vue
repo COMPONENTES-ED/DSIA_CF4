@@ -131,7 +131,7 @@
     .titulo-segundo(data-aos="flip-up")
       h2#t_4_4 4.4 #[em Deployment] y entornos de producción
     
-    p(data-aos="fade-right") La gestión eficiente de dependencias..”  por el siguiente texto “El despliegue de aplicaciones requiere una comprensión clara de los diferentes entornos y sus requisitos específicos. Los entornos típicos incluyen:
+    p(data-aos="fade-right") El despliegue de aplicaciones requiere una comprensión clara de los diferentes entornos y sus requisitos específicos. Los entornos típicos incluyen:
 
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-down")

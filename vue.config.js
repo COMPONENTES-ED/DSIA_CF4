@@ -1,5 +1,5 @@
 const titulo =
-  'Desarrollo de software: programación, arquitectura y herramientas'
+  'Recolección y documentación de requisitos de software'
 
 module.exports = {
   publicPath: '',

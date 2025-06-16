@@ -42,7 +42,7 @@ export default {
             'Conjunto de reglas y protocolos que permiten la comunicación entre diferentes componentes de <em>software</em>.',
         },
         {
-          termino: 'Branch (Rama)',
+          termino: '<em>Branch</em> (Rama)',
           significado:
             'En control de versiones, una línea independiente de desarrollo que permite trabajar en características o correcciones sin afectar el código principal.',
         },
