@@ -10,7 +10,7 @@
               img(src="@/assets/curso/Falso_Verdadero.svg", alt="Texto que describa la imagen")
         .col-12.col-md-8.col-lg-9
           .titulo-segundo
-            h2 Prueba de conocimientos sobre Desarrollo de #[em software]: programación, arquitectura y herramientas.
+            h2 Prueba de conocimientos sobre Desarrollo de #[em software]: programación, arquitectura y herramientas
           p.mb-4 Validar el conocimiento adquirido sobre Desarrollo de #[em software]: programación, arquitectura y herramientas. Esto se trabaja a partir de un conjunto de preguntas con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
           .tarjeta.actividad.p-3
             .row.justify-content-around.align-items-center            

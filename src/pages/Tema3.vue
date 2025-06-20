@@ -114,9 +114,21 @@
         .d-none.d-lg-block
           figure
             img(src="@/assets/curso/tema3/6.png")
-      .col-lg.col-md-10.m-auto(data-aos="fade-left")
-        figure
-          img(src="@/assets/curso/tema3/7.svg")
+      .col-lg-7.col-md-10.m-auto(data-aos="fade-left")
+        .tarjeta.overflow-hidden(style="background-color: #110628 ")
+            .p-3.mb-5(style="background-color: #3A1D71")
+              img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+            pre.p-5.text-white.py-2.mb-4
+              code
+                | # Ejemplo de comandos comunes de branching y merging
+                | git branch feature/nueva-funcionalidad     # Crear nueva rama
+                | git checkout feature/nueva-funcionalidad   # Cambiar a la nueva rama
+                | git commit -m "Implementación inicial"     # Realizar cambios
+                | git push origin feature/nueva-funcionalidad # Publicar rama
+                | git checkout main                          # Volver a la rama principal
+                | git merge feature/nueva-funcionalidad      # Fusionar cambios
+        //- figure
+        //-   img(src="@/assets/curso/tema3/7.svg")
     
     Separador
 

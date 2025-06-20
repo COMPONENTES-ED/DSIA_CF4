@@ -121,10 +121,27 @@
                 li.d-flex.mb-0
                   i.fas.fa-check-circle(style="color:#1169E3;")
                   span Compartir configuraciones entre equipos.
-      .col-lg-auto(data-aos="fade-left")
+      .col-lg-4(data-aos="fade-left")
         .col-md-9.col-lg-12.col-12.m-auto
-          figure
-            img(src="@/assets/curso/tema4/9.svg")
+          .tarjeta.overflow-hidden(style="background-color: #110628 ")
+              .p-3.mb-5(style="background-color: #3A1D71")
+                img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+              pre.p-5.text-white.py-2.mb-4
+                code
+                  | {
+                  |   "name": "mi-proyecto",
+                  |   "version": "1.0.0",
+                  |   "dependencies": {
+                  |     "express": "^4.17.1",
+                  |     "lodash": "^4.17.21"
+                  |   },
+                  |   "devDependencies": {
+                  |     "jest": "^27.0.6",
+                  |     "eslint": "^7.32.0"
+                  |   }
+                  | }
+          //- figure
+          //-   img(src="@/assets/curso/tema4/9.svg")
     
     Separador
 
@@ -203,8 +220,30 @@
             img(src="@/assets/curso/tema4/11.png")
       .col-lg-auto(data-aos="fade-left")
         .col-md-9.col-lg-12.col-12.m-auto
-          figure
-            img(src="@/assets/curso/tema4/12.svg")
+          .tarjeta.overflow-hidden(style="background-color: #110628 ")
+                .p-3.mb-5(style="background-color: #3A1D71")
+                  img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+                pre.p-5.text-white.py-2.mb-4
+                  code
+                    | # Ejemplo de validación básica de entradas
+                    | def procesar_entrada(dato):
+                    |     if not dato:
+                    |         raise ValueError("El dato no puede estar vacío")
+                    | 
+                    |     # Sanitización básica
+                    |     dato = dato.strip()
+                    | 
+                    |     # Validación de longitud
+                    |     if len(dato) > 100:
+                    |         raise ValueError("El dato es demasiado largo")
+                    | 
+                    |     # Escapar caracteres especiales
+                    |     dato = html.escape(dato)
+                    | 
+                    |     return dato
+
+          //- figure
+          //-   img(src="@/assets/curso/tema4/12.svg")
     
     p.mt-4(data-aos="fade-right") La configuración y mantenimiento adecuados del entorno de desarrollo es fundamental para la productividad y la calidad del #[em software]. Aunque las herramientas específicas pueden variar según el proyecto o la organización, los principios básicos de desarrollo seguro, #[em testing] y gestión de dependencias son universales.
 

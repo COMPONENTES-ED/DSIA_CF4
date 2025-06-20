@@ -51,11 +51,11 @@ export default {
           'Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (2021). Design Patterns: Elements of Reusable Object-Oriented <em>Software</em> (Anniversary ed.). Addison-Wesley Professional.',
         link: '',
       },
-      {
-        referencia:
-          'Luján-Mora, S. (2023). Programación en Internet: Guía completa. Universidad de Alicante. ',
-        link: 'http://gplsi.dlsi.ua.es/~slujan/programacion-internet/',
-      },
+      // {
+      //   referencia:
+      //     'Luján-Mora, S. (2023). Programación en Internet: Guía completa. Universidad de Alicante. ',
+      //   link: 'http://gplsi.dlsi.ua.es/~slujan/programacion-internet/',
+      // },
       {
         referencia:
           "Martin, R. C. (2021). Clean Architecture: A Craftsman's Guide to <em>Software</em> Structure and Design. Prentice Hall.",
@@ -66,11 +66,11 @@ export default {
           'Pressman, R. S., & Maxim, B. R. (2024). Ingeniería del <em>Software</em>: Un Enfoque Práctico (9ª ed.). McGraw-Hill Education.',
         link: '',
       },
-      {
-        referencia:
-          'Rodríguez, P., & López, M. (2023). Control de versiones con Git: Manual práctico. Universidad Politécnica de Madrid.',
-        link: 'https://oa.upm.es/control-versiones/',
-      },
+      // {
+      //   referencia:
+      //     'Rodríguez, P., & López, M. (2023). Control de versiones con Git: Manual práctico. Universidad Politécnica de Madrid.',
+      //   link: 'https://oa.upm.es/control-versiones/',
+      // },
       {
         referencia:
           'Sommerville, I. (2021). <em>Software</em> Engineering (11th ed.). Pearson.',
